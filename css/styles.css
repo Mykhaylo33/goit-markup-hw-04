@@ -155,6 +155,9 @@ body {
   color: var(--accent-color);
 }
 
+.icon-envelope ::before {
+  background-image: url(../images/envelope.svg);
+}
 /*Hero*/
 
 .hero {
@@ -350,6 +353,14 @@ body {
 .team-position {
   margin-top: 0;
   margin-bottom: 16px;
+}
+
+.section-clients {
+  text-align: center;
+}
+
+.clients-list {
+  display: flex;
 }
 /*Foter*/
 
