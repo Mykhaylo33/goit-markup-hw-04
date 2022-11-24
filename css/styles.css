@@ -4,7 +4,8 @@
   --primary-white-color: #ffffff;
   --accent-color: #2196f3;
   --seconadry-accent-color: rgba(24, 140, 232, 1);
-  --secondary-bg-color: #c4c4c4;
+  --hero-bg-color: #c4c4c4;
+  --footer-bg-color: #2f303a;
   --team-title-bg: #f5f4fa;
   --footer-text-color: rgba(255, 255, 255, 0.6);
   --portfolio-item-bg: #eeeeee;
@@ -160,7 +161,7 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  background-color: var(--secondary-bg-color);
+  background-color: var(--hero-bg-color);
 }
 
 .overlay {
@@ -271,9 +272,6 @@ body {
   display: flex;
 }
 
-.features-item {
-}
-
 .features-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -359,7 +357,7 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 
-  background-color: var(--secondary-bg-color);
+  background-color: var(--footer-bg-color);
 }
 
 .logo-secondary {
