@@ -4,7 +4,8 @@
   --primary-white-color: #ffffff;
   --accent-color: #2196f3;
   --seconadry-accent-color: rgba(24, 140, 232, 1);
-  --secondary-bg-color: #c4c4c4;
+  --hero-bg-color: #c4c4c4;
+  --footer-bg-color: #2f303a;
   --team-title-bg: #f5f4fa;
   --footer-text-color: rgba(255, 255, 255, 0.6);
   --portfolio-item-bg: #eeeeee;
@@ -154,13 +155,16 @@ body {
   color: var(--accent-color);
 }
 
+.icon-envelope ::before {
+  background-image: url(../images/envelope.svg);
+}
 /*Hero*/
 
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  background-color: var(--secondary-bg-color);
+  background-color: var(--hero-bg-color);
 }
 
 .overlay {
@@ -271,9 +275,6 @@ body {
   display: flex;
 }
 
-.features-item {
-}
-
 .features-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -353,13 +354,21 @@ body {
   margin-top: 0;
   margin-bottom: 16px;
 }
+
+.section-clients {
+  text-align: center;
+}
+
+.clients-list {
+  display: flex;
+}
 /*Foter*/
 
 .page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
 
-  background-color: var(--secondary-bg-color);
+  background-color: var(--footer-bg-color);
 }
 
 .logo-secondary {
