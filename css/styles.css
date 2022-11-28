@@ -9,6 +9,7 @@
     --team-title-bg: #f5f4fa;
     --footer-text-color: rgba(255, 255, 255, 0.6);
     --portfolio-item-bg: #eeeeee;
+    --currentColor: var(--primary-text-color);
 }
 
 /* General styles */
@@ -168,7 +169,8 @@ body {
 }
 
 .icon-contact {
-    margin-left: 10px;
+    margin-right: 10px;
+    fill: currentColor;
 }
 
 /*Hero*/
@@ -266,16 +268,16 @@ body {
     padding-bottom: 0;
 }
 
-.icon-features{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
+.icon-features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
 
-  background-color: var(--team-title-bg);
-  border-radius: 4px;
+    background-color: var(--team-title-bg);
+    border-radius: 4px;
 }
 
 .features {
@@ -375,7 +377,7 @@ body {
     height: 40px;
     border-radius: 50%;
     display: flex;
-    fill:var(--primary-text-color);
+    fill: var(--primary-text-color);
     align-items: center;
     justify-content: center;
 }
@@ -414,9 +416,13 @@ body {
 }
 
 .clients-frame :hover,
-.clients-frame:focus{
- fill: var(--accent-color);
- border:var(--accent-color)
+.clients-frame:focus {
+    fill: var(--accent-color);
+    border: var(--accent-color);
+}
+
+.icon-clients {
+    fill: currentColor;
 }
 
 /*Foter*/
