@@ -413,14 +413,14 @@ body {
     color: var(--primary-text-color);
 }
 
-.clients-frame :hover,
-.clients-frame:focus {
-    fill: var(--accent-color);
-    border: var(--accent-color);
+.clients-frame {
+    fill: var(--primary-text-color);
 }
 
-.icon-clients {
-    fill: currentColor;
+.clients-item :hover,
+.clients-item :focus {
+    border-color: var(--accent-color);
+    fill: var(--accent-color);
 }
 
 /*Foter*/
@@ -476,8 +476,6 @@ body {
 .footer-social-container {
     display: block;
     margin-left: 69px;
-
-    outline: 2px solid red;
 }
 
 .footer-social-list {
