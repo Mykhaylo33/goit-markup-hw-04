@@ -305,12 +305,33 @@ body {
     margin-left: auto;
 }
 
-.work-item {
+.work-item:not(:last-child) {
+    margin-right: 30px;
+}
+.work-thumb {
     position: relative;
 }
 
-.work-item:not(:last-child) {
-    margin-right: 30px;
+.work-image {
+    display: block;
+}
+
+.work-label-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    margin: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+    background: rgba(47, 48, 58, 0.8);
 }
 
 /* Team section */
